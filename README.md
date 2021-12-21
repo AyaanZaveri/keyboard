@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+### What's Keyboard?
+
+> Keyboard is a ReactJS and Tailwind Project which checks for [key strokes](https://devdocs.io/dom/document/keydown_event), and sends it onto a [virtual keyboard](https://keyboard-ayaanzaveri08.vercel.app).
+
+# Getting Started with Keyboard
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
