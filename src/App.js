@@ -21,7 +21,6 @@ const App = () => {
     ["0","w-16", "h-12", "white"],
   ]
   .map(([nums, width, height, color]) => (
-    console.log(nums, width, height, color),
     <div className={`mt-5 rounded-lg ${width} ${height}`}>
     <button type="button" id={nums} className={`focus:ring-gray font-mono items-center ${width} ${height} shadow-sm justify-center hover:text-gray-500 text-gray-500 active:text-gray-500 text-base font-medium  active:bg-gray-100 bg-${color} hover:bg-gray-50 border focus:border-gray-500 focus:ring ring-gray-300 border-gray-300 rounded-md focus:outline-none transition`}>
       {nums}
@@ -50,7 +49,6 @@ const App = () => {
     ["Delete","w-24", "h-12", "gray-50"],
   ]
   .map(([letter, width, height, color]) => (
-    console.log(letter, width, height, color),
     <div className={`mt-5 rounded-lg ${width} ${height}`}>
     <button type="button" id={letter} className={`focus:ring-gray font-mono items-center ${width} ${height} shadow-sm justify-center hover:text-gray-500 text-gray-500 active:text-gray-500 text-base font-medium  active:bg-gray-100 bg-${color} hover:bg-gray-50 border focus:border-gray-500 focus:ring ring-gray-300 border-gray-300 rounded-md focus:outline-none transition`}>
       {letter}
@@ -79,7 +77,6 @@ const App = () => {
   ["Enter","w-24", "h-12", "gray-50"],
 ]
 .map(([letter, width, height, color]) => (
-  console.log(letter, width, height, color),
   <div className={`mt-5 rounded-lg ${width} ${height}`}>
     <button type="button" id={letter} className={`focus:ring-gray font-mono items-center ${width} ${height} shadow-sm justify-center hover:text-gray-500 text-gray-500 active:text-gray-500 text-base font-medium  active:bg-gray-100 bg-${color} hover:bg-gray-50 border focus:border-gray-500 focus:ring ring-gray-300 border-gray-300 rounded-md focus:outline-none transition`}>
       {letter}
@@ -107,7 +104,6 @@ const App = () => {
     ["Shift","w-24", "h-12", "gray-50"],
   ]
   .map(([letter, width, height, color]) => (
-    console.log(letter, width, height, color),
     <div className={`mt-5 rounded-lg ${width} ${height}`}>
     <button type="button" id={letter} className={`focus:ring-gray font-mono items-center ${width} ${height} shadow-sm justify-center hover:text-gray-500 text-gray-500 active:text-gray-500 text-base font-medium  active:bg-gray-100 bg-${color} hover:bg-gray-50 border focus:border-gray-500 focus:ring ring-gray-300 border-gray-300 rounded-md focus:outline-none transition`}>
       {letter}
