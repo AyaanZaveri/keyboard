@@ -35,7 +35,6 @@ const App = () => {
 <div className='flex flex-wrap flex-row justify-center gap-[18px]'>
 {
   [
-    ["Tab","w-24", "h-12", "gray-50"],
     ["Q","w-14", "h-12", "white"],
     ["W","w-14", "h-12", "white"],
     ["E","w-14", "h-12", "white"],
@@ -93,7 +92,7 @@ const App = () => {
 
  {
   [
-    ["Shift","w-24", "h-12", "gray-50"],
+    ["Shift ","w-24", "h-12", "gray-50"],
     ["Z","w-14", "h-12", "white"],
     ["X","w-14", "h-12", "white"],
     ["C","w-14", "h-12", "white"],
@@ -229,12 +228,6 @@ const App = () => {
             document.getElementById(`Esc`).focus()
             setTimeout(() => {
             document.getElementById(`Esc`).blur()
-            }, 501)
-          }
-        if (key.code === "Tab") {
-            document.getElementById(`0`).focus()
-            setTimeout(() => {
-            document.getElementById(`Tab`).blur()
             }, 501)
           }
 
