@@ -114,7 +114,8 @@ const App = () => {
 
 </div>
 
-<div className='flex flex-wrap flex-row justify-center gap-[18px]'>
+{/* Bottom Row (Control, Option, Space, Meta) */}
+
   {
 
     <div class="flex flex-wrap flex-row justify-center gap-[18px]">
@@ -153,7 +154,6 @@ const App = () => {
     </button>
     </div>
   }
-</div>
 
   {
       window.addEventListener('keyup', (key) => {
